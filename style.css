@@ -29,7 +29,6 @@ h1 {
 
 .gallery-item {
     height: 300px;
-    /* Consistent height */
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -42,7 +41,6 @@ h1 {
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
-    /* Show full image without cropping */
     display: block;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
@@ -53,7 +51,6 @@ h1 {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Lightbox styles */
 .lightbox {
     display: none;
     position: fixed;
